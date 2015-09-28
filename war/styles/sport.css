@@ -1,53 +1,20 @@
 @CHARSET "UTF-8";
+@font-face {font-family: "Bree Serif"; src: url("../fonts/BreeSerif-Regular.otf");}
+@font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
 h1 {
-	position: relative;
-	top: 50px;
-	text-align: center;
-	
-	font: 40px Bree Serif 400;
+	font: 400 40px Bree Serif;
 	color: #000FE0;
 }
 
 #page_content {
-	position: relative;
-	top: 40px;
-	width: 100%;
-	text-align: center;
-	
-	font: 14px Josefin Sans 400;
+	font: 400 14px Josefin Sans;
 	color: #444444;
 }
 
 #navbar {
-	position: fixed;
-	left: 0px; top: 0px;
-	width: 100%;
-	text-align: center;
-    z-index: 3;
-    
     background-color: #CC0000;
 }
-#navbar ul {
-	width: 75%; height: 40px;
-	padding: 0px;
-	margin: auto;
-	
-	list-style-type: none;
-}
 #navbar li {
-	position: relative;
-	top: 11px;
-	margin: 0px 20px;
-	
-	display: inline;
-}
-#navbar a {
-	text-decoration: none;
-	font: 18px Josefin Sans 400;
-	color: #FFFFFF;
-	
-}
-#navbar a:hover {
-	color: #FF9999;
+	font: 400 16px Josefin Sans;
 }

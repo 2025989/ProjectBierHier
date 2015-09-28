@@ -1,53 +1,20 @@
 @CHARSET "UTF-8";
+@font-face {font-family: "Oswald"; src: url("../fonts/Oswald-Regular.ttf");}
+@font-face {font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf");}
 
 h1 {
-	position: relative;
-	top: 50px;
-	text-align: center;
-	
-	font: 40px Oswald 400;
+	font: 400 40px Oswald;
 	color: #444444;
 }
 
 #page_content {
-	position: relative;
-	top: 40px;
-	width: 100%;
-	text-align: center;
-	
-	font: 14px Raleway 400;
+	font: 400 14px Raleway;
 	color: #000000;
 }
 
 #navbar {
-	position: fixed;
-	left: 0px; top: 0px;
-	width: 100%;
-	text-align: center;
-    z-index: 3;
-    
     background-color: #000FE0;
 }
-#navbar ul {
-	width: 75%; height: 40px;
-	padding: 0px;
-	margin: auto;
-	
-	list-style-type: none;
-}
 #navbar li {
-	position: relative;
-	top: 11px;
-	margin: 0px 20px;
-	
-	display: inline;
-}
-#navbar a {
-	text-decoration: none;
-	font: 18px Raleway 400;
-	color: #FFFFFF;
-	
-}
-#navbar a:hover {
-	color: #8080E0;
+	font: 400 16px Raleway;
 }

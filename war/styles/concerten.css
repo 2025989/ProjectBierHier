@@ -1,53 +1,35 @@
 @CHARSET "UTF-8";
+@font-face {font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");}
+@font-face {font-family: "Droid Serif"; src: url("../fonts/DroidSerif.ttf");}
 
 h1 {
-	position: relative;
-	top: 50px;
-	text-align: center;
-	
-	font: 40px Montserrat 700;
+	font: 700 40px Montserrat;
 	color: #444444;
 }
 
+h2 a {
+	font: 400 32px Montserrat;
+	color: #007700;
+}
+h2 a:hover {color: #00AA00}
+h2 a:visited {color: #005533}
+
 #page_content {
-	position: relative;
-	top: 40px;
-	width: 100%;
-	text-align: center;
-	
-	font: 14px Droid Serif 400;
+	font: 400 14px Droid Serif;
 	color: #444444;
 }
 
 #navbar {
-	position: fixed;
-	left: 0px; top: 0px;
-	width: 100%;
-	text-align: center;
-    z-index: 3;
-    
     background-color: #007700;
 }
-#navbar ul {
-	width: 75%; height: 40px;
-	padding: 0px;
-	margin: auto;
-	
-	list-style-type: none;
-}
 #navbar li {
-	position: relative;
-	top: 11px;
-	margin: 0px 20px;
-	
-	display: inline;
+	font: 400 16px Droid Serif;
 }
-#navbar a {
-	text-decoration: none;
-	font: 18px Droid Serif 400;
-	color: #FFFFFF;
-	
+
+.hor_div {
+	height: 700px;
+	margin: 20px 0px;
 }
-#navbar a:hover {
-	color: #00FF00;
+.hor_div div {
+	display: inline-block;
 }
