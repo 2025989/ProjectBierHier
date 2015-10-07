@@ -18,3 +18,11 @@ h1 {
 #navbar li {
 	font: 400 16px Josefin Sans;
 }
+
+.hor_div {
+	height: 700px;
+	margin: 20px 0px;
+}
+.hor_div div {
+	display: inline-block;
+}
