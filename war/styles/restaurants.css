@@ -2,7 +2,15 @@
 @font-face {font-family: "Archivo Black"; src: url("../fonts/ArchivoBlack.otf");}
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
+#header {
+	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 15%, #CC0000 85%, #FFFFFF 100%);
+}
+#header div {
+	background: linear-gradient(to right, #FFFFFF 0%, #FFAEAE 15%, #FFAEAE 85%, #FFFFFF 100%);
+}
 h1 {
+	position: relative;
+	top: -7px;
 	font: 400 40px "Archivo Black";
 	color: #000FE0;
 }
@@ -25,7 +33,7 @@ h2 a {
 
 .hor_div {
 	height: 500px;
-	margin: 20px 0px;
+	margin: 40px 0px;
 }
 .hor_div div {
 	display: inline-block;

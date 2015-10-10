@@ -2,7 +2,15 @@
 @font-face {font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");}
 @font-face {font-family: "Droid Serif"; src: url("../fonts/DroidSerif.ttf");}
 
+#header {
+	background: linear-gradient(to right, #FFFFFF 0%, #007700 15%, #007700 85%, #FFFFFF 100%);
+}
+#header div {
+	background: linear-gradient(to right, #FFFFFF 0%, #99F295 15%, #99F295 85%, #FFFFFF 100%);
+}
 h1 {
+	position: relative;
+	top: -2px;
 	font: 700 40px "Montserrat";
 	color: #444444;
 }
@@ -25,7 +33,7 @@ h2 a {
 
 .hor_div {
 	height: 700px;
-	margin: 20px 0px;
+	margin: 40px 0px;
 }
 .hor_div div {
 	display: inline-block;

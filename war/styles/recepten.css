@@ -6,7 +6,15 @@ body {
 	background-color: #FFF39C;
 }
 
+#header {
+	background: linear-gradient(to right, #FFF39C 0%, #9C4600 15%, #9C4600 85%, #FFF39C 100%);
+}
+#header div {
+	background: linear-gradient(to right, #FFF39C 0%, #EBBD88 15%, #EBBD88 85%, #FFF39C 100%);
+}
 h1 {
+	position: relative;
+	top: -1px;
 	font: 400 40px "Russo One";
 	color: #000000;
 }
@@ -29,7 +37,7 @@ h2 {
 }
 
 .hor_div {
-	margin: 60px 0px;
+	margin: 40px 0px;
 }
 .hor_div div div {
 	padding: 0px;
