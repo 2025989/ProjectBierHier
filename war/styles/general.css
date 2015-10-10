@@ -49,13 +49,17 @@ h1 {
 	height: auto;
 	list-style-type: none;
 }
-#navbar li {
+#navbar ul a {
 	padding: 0.78125vw;
 	width: 11.71875vw;
 	height: 50%;
 	display: inline-block;
 	text-decoration: none;
 	color: #FFFFFF;
+}
+#navbar li {
+	padding: 0px;
+	display: inline-block;
 }
 #navbar li:hover {
 	cursor: pointer;
