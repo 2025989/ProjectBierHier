@@ -26,7 +26,7 @@ h1 {
 #page_content {
 	position: relative;
 	top: 3.90625vw;
-	width: 100%; min-height: calc(100vh - 3.515625vw - 2.604167vw);
+	width: 100%; min-height: 80vh;
 	text-align: center;
 }
 
