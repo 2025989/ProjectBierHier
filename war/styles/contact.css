@@ -10,13 +10,14 @@
 }
 h1 {
 	position: relative;
-	top: -5px;
-	font: 400 40px "Oswald";
+	top: -0.390625vw;
+	font: 400 3.125vw "Oswald";
 	color: #444444;
 }
 
 #page_content {
-	font: 400 14px "Raleway";
+	margin-top: 3.125vw;
+	font: 400 1.09375vw "Raleway";
 	color: #000000;
 }
 
@@ -24,5 +25,10 @@ h1 {
     background-color: #000FE0;
 }
 #navbar li {
-	font: 400 16px "Raleway";
+	font: 400 1.25vw "Raleway";
+}
+
+iframe {
+	width: 60vw; height: 50vh;
+	border: 0px;
 }

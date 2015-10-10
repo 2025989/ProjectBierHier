@@ -10,13 +10,13 @@
 }
 h1 {
 	position: relative;
-	top: -9px;
-	font: 400 40px "Bree Serif";
+	top: -0.703125vw;
+	font: 400 3.125vw "Bree Serif";
 	color: #000FE0;
 }
 
 #page_content {
-	font: 400 14px "Josefin Sans";
+	font: 400 1.09375vw "Josefin Sans";
 	color: #444444;
 }
 
@@ -24,5 +24,5 @@ h1 {
     background-color: #CC0000;
 }
 #navbar li {
-	font: 400 16px "Josefin Sans";
+	font: 400 1.25vw "Josefin Sans";
 }

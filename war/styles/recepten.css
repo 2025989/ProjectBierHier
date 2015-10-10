@@ -14,18 +14,18 @@ body {
 }
 h1 {
 	position: relative;
-	top: -1px;
-	font: 400 40px "Russo One";
+	top: -0.078125vw;
+	font: 400 3.125vw "Russo One";
 	color: #000000;
 }
 h2 {
-	font: 400 30px "Russo One";
+	font: 400 2.34375vw "Russo One";
 	text-decoration: underline; 
 	color: #000000;
 }
 
 #page_content {
-	font: 400 14px "Varela";
+	font: 400 1.09375vw "Varela";
 	color: #000000;
 }
 
@@ -33,20 +33,21 @@ h2 {
     background-color: #9C4600;
 }
 #navbar li {
-	font: 400 16px "Varela";
+	font: 400 1.25vw "Varela";
 }
 
 .hor_div {
-	margin: 40px 0px;
+	margin: 3.125vw 0px;
 }
 .hor_div div div {
 	padding: 0px;
-	width: 375px;
+	width: 29.296875vw;
 	display: inline-block;
 }
 .hor_div img {
+	height: 23.4375vw;
 	margin-left: 5vw;
-	border-radius: 50px;
+	border-radius: 3.90625vw;
 }
 .hor_div div {
 	padding-left: 10vw;

@@ -3,12 +3,12 @@
 @font-face {font-family: "Alegreya Sans"; src: url("../fonts/AlegreyaSans-Regular.ttf");}
 
 h1 {
-	font: 400 40px "Bevan";
+	font: 400 3.125vw "Bevan";
 	color: #CC0000;
 }
 
 #page_content {
-	font: 400 14px "Alegreya Sans";
+	font: 400 1.09375vw "Alegreya Sans";
 	color: #444444;
 }
 
@@ -16,9 +16,10 @@ h1 {
 	background-color: #000000;
 }
 #navbar li {
-	font: 400 16px "Alegreya Sans";
+	font: 400 1.25vw "Alegreya Sans";
 }
 
-img {
-	margin-bottom: 50px;
+#bannerbierhier {
+	width: 75vw;
+	margin-bottom: 3.90625vw;
 }

@@ -10,17 +10,17 @@
 }
 h1 {
 	position: relative;
-	top: -2px;
-	font: 700 40px "Montserrat";
+	top: -0.15625vw;
+	font: 700 3.125vw "Montserrat";
 	color: #444444;
 }
 h2 a {
-	font: 700 30px "Montserrat";
+	font: 700 2.34375vw "Montserrat";
 	color: #444444;
 }
 
 #page_content {
-	font: 400 14px "Droid Serif";
+	font: 400 1.09375vw "Droid Serif";
 	color: #444444;
 }
 
@@ -28,18 +28,21 @@ h2 a {
     background-color: #007700;
 }
 #navbar li {
-	font: 400 16px "Droid Serif";
+	font: 400 1.25vw "Droid Serif";
 }
 
 .hor_div {
-	height: 700px;
-	margin: 40px 0px;
+	height: 54.6875vw;
+	margin: 3.125vw 0px;
 }
 .hor_div div {
 	display: inline-block;
 }
 
+img {
+	width: 39.0625vw; height: 39.0625vw;
+}
 iframe {
-	width: 500px; height: 500px;
+	width: 39.0625vw; height: 39.0625vw;
 	border: 0px;
 }
