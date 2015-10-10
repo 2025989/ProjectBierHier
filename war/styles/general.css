@@ -3,21 +3,25 @@
 
 #logobierhier {
 	position: absolute;
-	right: -3.5vw; top: 2.5vw;
-	width: 25vw; height: 15.251359vw;
+	right: -3.5vw;
+	top: 2.5vw;
+	width: 25vw;
+	height: 15.251359vw;
 }
 
 #header {
-	width: 62.5vw; height: 4.296875vw;
+	margin-top: 1.5625vw;
 	position: relative;
 	left: calc(50vw - 33.203125vw);
 	top: 3.90625vw;
-	margin-top: 1.5625vw;
+	width: 62.5vw;
+	height: 4.296875vw;
 }
 #header div {
-	width: 62.5vw; height: 3.515625vw;
 	position: relative;
 	top: 0.390625vw;
+	width: 62.5vw;
+	height: 3.515625vw;
 }
 h1 {
 	text-align: center;
@@ -26,27 +30,29 @@ h1 {
 #page_content {
 	position: relative;
 	top: 3.90625vw;
-	width: 100%; min-height: 80vh;
+	width: 100%;
+	min-height: 80vh;
 	text-align: center;
 }
 
 #navbar {
 	position: fixed;
-	left: 0px; top: 0px;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
 	width: 100%;
 	text-align: center;
-	z-index: 3;
 }
 #navbar ul {
-	height: auto;
-	padding: 0px;
 	margin: auto;
+	padding: 0px;
+	height: auto;
 	list-style-type: none;
 }
 #navbar li {
-	position: relative;
-	width: 11.71875vw; height: 50%;
 	padding: 0.78125vw;
+	width: 11.71875vw;
+	height: 50%;
 	display: inline-block;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -57,24 +63,26 @@ h1 {
 }
 
 #footer {
-	position: relative;
-	left: 0px; bottom: 0px;
-	width: 100%;
 	margin-top: 5.859375vw;
-	text-align: center;
+	position: relative;
+	left: 0px;
 	z-index: 3;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
 	background-color: #444444;
 }
 #footer ul {
-	width: 75%; height: 1.5625vw;
-	padding: 0px;
 	margin: auto;
+	padding: 0px;
+	width: 75%;
+	height: 1.5625vw;
 	list-style-type: none;
 }
 #footer li {
+	margin: 0px 1.5625vw;
 	position: relative;
 	top: 0.390625vw;
-	margin: 0px 1.5625vw;
 	display: inline;
 }
 #footer a {
@@ -86,18 +94,20 @@ h1 {
 	color: #AAAAAA;
 }
 #copyright {
+	padding: 0.78125vw 0px 0.390625vw;
 	position: relative;
 	left: 5vw;
 	bottom: 0.390625vw;
-	padding: 0.78125vw 0px 0.390625vw;
 	font: 400 0.625vw "Raleway";
 	color: #FFFFFF;
 }
 #logoDNCB {
-	display: inline-block;
 	margin: 0px;
-	width: 7.8125vw; height: 2.604167vw;
-	float: right;
 	position: relative;
-	right: 7.671875vw; bottom: 2.6vw;
+	right: 7.671875vw;
+	bottom: 2.6vw;
+	width: 7.8125vw;
+	height: 2.604167vw;
+	float: right;
+	display: inline-block;
 }

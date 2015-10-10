@@ -45,9 +45,9 @@ h2 {
 	display: inline-block;
 }
 .hor_div img {
-	height: 23.4375vw;
 	margin-left: 5vw;
 	border-radius: 3.90625vw;
+	height: 23.4375vw;
 }
 .hor_div div {
 	padding-left: 10vw;

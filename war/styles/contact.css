@@ -29,6 +29,7 @@ h1 {
 }
 
 iframe {
-	width: 60vw; height: 50vh;
 	border: 0px;
+	width: 60vw;
+	height: 50vh;
 }

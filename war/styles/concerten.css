@@ -32,17 +32,19 @@ h2 a {
 }
 
 .hor_div {
-	height: 54.6875vw;
 	margin: 3.125vw 0px;
+	height: 54.6875vw;
 }
 .hor_div div {
 	display: inline-block;
 }
 
 img {
-	width: 39.0625vw; height: 39.0625vw;
+	width: 39.0625vw;
+	height: 39.0625vw;
 }
 iframe {
-	width: 39.0625vw; height: 39.0625vw;
 	border: 0px;
+	width: 39.0625vw;
+	height: 39.0625vw;
 }

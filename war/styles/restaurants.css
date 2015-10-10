@@ -32,8 +32,8 @@ h2 a {
 }
 
 .hor_div {
-	height: 39.0625vw;
 	margin: 3.125vw 0px;
+	height: 39.0625vw;
 }
 .hor_div div {
 	display: inline-block;
@@ -42,17 +42,19 @@ h2 a {
 	display: block;
 }
 .hor_div img {
-	width: 39.0625vw;
 	border-radius: 3.90625vw;
+	width: 39.0625vw;
 }
 .order {
 	margin-top: 0.78125wv;
-	width: 19.53125vw; height: 2.734375vw;
+	width: 19.53125vw;
+	height: 2.734375vw;
 	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 25%, #CC0000 75%, #FFFFFF 100%);
 }
 .order div {
 	padding: 0px 3.90625vw;
-	width: 11.71875vw; height: 1.953125vw;
+	width: 11.71875vw;
+	height: 1.953125vw;
 	position: relative;
 	top: 0.390625vw;
 	font: 400 1.5625vw "Josefin Sans";
