@@ -3,12 +3,12 @@
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
 h1 {
-	font: 400 40px Bree Serif;
+	font: 400 40px "Bree Serif";
 	color: #000FE0;
 }
 
 #page_content {
-	font: 400 14px Josefin Sans;
+	font: 400 14px "Josefin Sans";
 	color: #444444;
 }
 
@@ -16,5 +16,5 @@ h1 {
     background-color: #CC0000;
 }
 #navbar li {
-	font: 400 16px Josefin Sans;
+	font: 400 16px "Josefin Sans";
 }

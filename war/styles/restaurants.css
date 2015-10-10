@@ -1,19 +1,18 @@
 @CHARSET "UTF-8";
-@font-face {font-family: "Bevan"; src: url("../fonts/Bevan.ttf");}
+@font-face {font-family: "Archivo Black"; src: url("../fonts/ArchivoBlack.otf");}
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
 h1 {
-	font: 400 40px Bevan;
+	font: 400 40px "Archivo Black";
 	color: #000FE0;
 }
 h2 a {
-	font: 400 30px Josefin Sans;
-	text-decoration: none;
-	color: #000000;
+	font: 400 30px "Josefin Sans";
+	color: #000FE0;
 }
 
 #page_content {
-	font: 400 14px Josefin Sans;
+	font: 400 14px "Josefin Sans";
 	color: #000000;
 }
 
@@ -21,7 +20,7 @@ h2 a {
     background-color: #CC0000;
 }
 #navbar li {
-	font: 400 16px Josefin Sans;
+	font: 400 16px "Josefin Sans";
 }
 
 .hor_div {
@@ -33,7 +32,6 @@ h2 a {
 }
 .hor_div a {
 	display: block;
-	width: 50;
 }
 .hor_div img {
 	border-radius: 50px;
@@ -48,7 +46,7 @@ h2 a {
 	width: 150px; height: 25px;
 	position: relative;
 	top: 5px;
-	font: 400 20px Josefin Sans;
+	font: 400 20px "Josefin Sans";
 	color: #000000;
 	background: linear-gradient(to right, #FFFFFF 0%, #FF8080 25%, #FF8080 75%, #FFFFFF 100%);
 }

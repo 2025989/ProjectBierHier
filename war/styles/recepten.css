@@ -7,12 +7,17 @@ body {
 }
 
 h1 {
-	font: 400 40px Russo One;
+	font: 400 40px "Russo One";
+	color: #000000;
+}
+h2 {
+	font: 400 30px "Russo One";
+	text-decoration: underline; 
 	color: #000000;
 }
 
 #page_content {
-	font: 400 14px Varela;
+	font: 400 14px "Varela";
 	color: #000000;
 }
 
@@ -20,5 +25,22 @@ h1 {
     background-color: #9C4600;
 }
 #navbar li {
-	font: 400 16px Varela;
+	font: 400 16px "Varela";
+}
+
+.hor_div {
+	margin: 60px 0px;
+}
+.hor_div div div {
+	padding: 0px;
+	width: 375px;
+	display: inline-block;
+}
+.hor_div img {
+	margin-left: 5vw;
+	border-radius: 50px;
+}
+.hor_div div {
+	padding-left: 10vw;
+	text-align: left;
 }

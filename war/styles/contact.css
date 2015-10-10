@@ -3,12 +3,12 @@
 @font-face {font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf");}
 
 h1 {
-	font: 400 40px Oswald;
+	font: 400 40px "Oswald";
 	color: #444444;
 }
 
 #page_content {
-	font: 400 14px Raleway;
+	font: 400 14px "Raleway";
 	color: #000000;
 }
 
@@ -16,5 +16,5 @@ h1 {
     background-color: #000FE0;
 }
 #navbar li {
-	font: 400 16px Raleway;
+	font: 400 16px "Raleway";
 }

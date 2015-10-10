@@ -3,19 +3,16 @@
 @font-face {font-family: "Droid Serif"; src: url("../fonts/DroidSerif.ttf");}
 
 h1 {
-	font: 700 40px Montserrat;
+	font: 700 40px "Montserrat";
+	color: #444444;
+}
+h2 a {
+	font: 700 30px "Montserrat";
 	color: #444444;
 }
 
-h2 a {
-	font: 400 32px Montserrat;
-	color: #007700;
-}
-h2 a:hover {color: #00AA00}
-h2 a:visited {color: #005533}
-
 #page_content {
-	font: 400 14px Droid Serif;
+	font: 400 14px "Droid Serif";
 	color: #444444;
 }
 
@@ -23,7 +20,7 @@ h2 a:visited {color: #005533}
     background-color: #007700;
 }
 #navbar li {
-	font: 400 16px Droid Serif;
+	font: 400 16px "Droid Serif";
 }
 
 .hor_div {
@@ -32,4 +29,9 @@ h2 a:visited {color: #005533}
 }
 .hor_div div {
 	display: inline-block;
+}
+
+iframe {
+	width: 500px; height: 500px;
+	border: 0px;
 }

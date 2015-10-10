@@ -3,12 +3,12 @@
 @font-face {font-family: "Alegreya Sans"; src: url("../fonts/AlegreyaSans-Regular.ttf");}
 
 h1 {
-	font: 400 40px Bevan;
+	font: 400 40px "Bevan";
 	color: #CC0000;
 }
 
 #page_content {
-	font: 400 14px Alegreya Sans;
+	font: 400 14px "Alegreya Sans";
 	color: #444444;
 }
 
@@ -16,7 +16,7 @@ h1 {
 	background-color: #000000;
 }
 #navbar li {
-	font: 400 16px Alegreya Sans;
+	font: 400 16px "Alegreya Sans";
 }
 
 img {
