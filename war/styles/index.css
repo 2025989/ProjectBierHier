@@ -2,16 +2,6 @@
 @font-face {font-family: "Bevan"; src: url("../fonts/Bevan.ttf");}
 @font-face {font-family: "Alegreya Sans"; src: url("../fonts/AlegreyaSans-Regular.ttf");}
 
-h1 {
-	font: 400 3.125vw "Bevan";
-	color: #CC0000;
-}
-
-#page_content {
-	font: 400 1.09375vw "Alegreya Sans";
-	color: #444444;
-}
-
 #navbar {
 	background-color: #000000;
 }
@@ -22,4 +12,14 @@ h1 {
 #bannerbierhier {
 	margin-bottom: 3.90625vw;
 	width: 75vw;
+}
+
+h1 {
+	font: 400 3.125vw "Bevan";
+	color: #CC0000;
+}
+
+#page_content {
+	font: 400 1.09375vw "Alegreya Sans";
+	color: #444444;
 }

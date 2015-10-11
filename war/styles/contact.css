@@ -2,6 +2,13 @@
 @font-face {font-family: "Oswald"; src: url("../fonts/Oswald-Regular.ttf");}
 @font-face {font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf");}
 
+#navbar {
+    background-color: #000FE0;
+}
+#navbar li {
+	font: 400 1.25vw "Raleway";
+}
+
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #000FE0 15%, #000FE0 85%, #FFFFFF 100%);
 }
@@ -14,18 +21,16 @@ h1 {
 	font: 400 3.125vw "Oswald";
 	color: #444444;
 }
+h2 {
+	font: 400 2.34375vw "Oswald";
+	text-decoration: underline; 
+	color: #444444;
+}
 
 #page_content {
 	margin-top: 3.125vw;
 	font: 400 1.09375vw "Raleway";
 	color: #000000;
-}
-
-#navbar {
-    background-color: #000FE0;
-}
-#navbar li {
-	font: 400 1.25vw "Raleway";
 }
 
 iframe {

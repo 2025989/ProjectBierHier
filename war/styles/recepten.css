@@ -6,6 +6,13 @@ body {
 	background-color: #FFF39C;
 }
 
+#navbar {
+    background-color: #9C4600;
+}
+#navbar li {
+	font: 400 1.25vw "Varela";
+}
+
 #header {
 	background: linear-gradient(to right, #FFF39C 0%, #9C4600 15%, #9C4600 85%, #FFF39C 100%);
 }
@@ -29,16 +36,6 @@ h2 {
 	color: #000000;
 }
 
-#navbar {
-    background-color: #9C4600;
-}
-#navbar li {
-	font: 400 1.25vw "Varela";
-}
-
-.hor_div {
-	margin: 3.125vw 0px;
-}
 .hor_div div div {
 	padding: 0px;
 	width: 29.296875vw;

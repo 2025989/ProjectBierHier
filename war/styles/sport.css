@@ -2,6 +2,13 @@
 @font-face {font-family: "Bree Serif"; src: url("../fonts/BreeSerif-Regular.otf");}
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
+#navbar {
+    background-color: #CC0000;
+}
+#navbar li {
+	font: 400 1.25vw "Josefin Sans";
+}
+
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 15%, #CC0000 85%, #FFFFFF 100%);
 }
@@ -14,15 +21,47 @@ h1 {
 	font: 400 3.125vw "Bree Serif";
 	color: #000FE0;
 }
+h2 {
+	text-decoration: underline;
+	font: 400 2.34375vw "Bree Serif";
+	color: #000FE0;
+}
 
 #page_content {
 	font: 400 1.09375vw "Josefin Sans";
 	color: #444444;
 }
 
-#navbar {
-    background-color: #CC0000;
+table {
+	border-collapse: collapse;
+	display: inline-block;
+	margin: 0px 1.171875vw;
 }
-#navbar li {
-	font: 400 1.25vw "Josefin Sans";
+tr {
+	border-top: 0.078125vw solid black;
+}
+td {
+	padding: 0px 1.171875vw;
+}
+td:first-of-type {
+	text-align: right;
+}
+.score, .time {
+	margin: 0px;
+	font-weight: bold;
+}
+td:last-of-type {
+	text-align: left;
+}
+
+.hor_div img, iframe {
+	border: 0px;
+	width: 31.25vw;
+	height: 23.4375vw;
+}
+.img_left {
+	border-radius: 3.90625vw 0px 0px 3.90625vw;
+}
+.img_right {
+	border-radius: 0px 3.90625vw 3.90625vw 0px;
 }

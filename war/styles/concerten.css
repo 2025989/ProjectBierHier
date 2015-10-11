@@ -2,6 +2,13 @@
 @font-face {font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");}
 @font-face {font-family: "Droid Serif"; src: url("../fonts/DroidSerif.ttf");}
 
+#navbar {
+    background-color: #007700;
+}
+#navbar li {
+	font: 400 1.25vw "Droid Serif";
+}
+
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #007700 15%, #007700 85%, #FFFFFF 100%);
 }
@@ -24,27 +31,40 @@ h2 a {
 	color: #444444;
 }
 
-#navbar {
-    background-color: #007700;
-}
-#navbar li {
-	font: 400 1.25vw "Droid Serif";
-}
-
-.hor_div {
-	margin: 3.125vw 0px;
-	height: 54.6875vw;
-}
 .hor_div div {
 	display: inline-block;
 }
-
-img {
-	width: 39.0625vw;
-	height: 39.0625vw;
-}
-iframe {
+.hor_div img, iframe, #escape_maps {
 	border: 0px;
-	width: 39.0625vw;
-	height: 39.0625vw;
+	width: 31.25vw;
+	height: 23.4375vw;
+}
+.img_left {
+	border-radius: 3.90625vw 0px 0px 3.90625vw;
+}
+.img_right {
+	border-radius: 0px 3.90625vw 3.90625vw 0px;
+}
+#escape_maps {
+	border-radius: 0px 3.90625vw 3.90625vw 0px;
+	background: linear-gradient(to right, #000000 85%, #444444 100%);
+}
+#escape_maps iframe {
+	position: relative;
+	left: -1.953125vw;
+	width: 27.34375vw;
+}
+
+.button {
+	background: linear-gradient(to right, #FFFFFF 0%, #007700 25%, #007700 75%, #FFFFFF 100%);
+}
+.button div {
+	font: 400 1.40625vw "Droid Serif";
+	color: #444444;
+	background: linear-gradient(to right, #FFFFFF 0%, #99F295 25%, #99F295 75%, #FFFFFF 100%);
+}
+.button p {
+	margin: 0px;
+	position: relative;
+	top: 0.15625vw;
 }
