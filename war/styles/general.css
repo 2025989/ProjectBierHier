@@ -120,18 +120,19 @@ h1 {
 	color: #AAAAAA;
 }
 #copyright {
-	padding: 0.78125vw 0px 0.390625vw;
+	padding: 0.78125vw 0px 0.390625vw 8vw;
 	position: relative;
 	left: 5vw;
 	bottom: 0.390625vw;
+	width: 80vw;
 	font: 400 0.625vw "Raleway";
 	color: #FFFFFF;
 }
 #logoDNCB {
 	margin: 0px;
 	position: relative;
-	right: 7.671875vw;
-	bottom: 2.6vw;
+	left: 1vw;
+	bottom: 2.4vw;
 	width: 7.8125vw;
 	height: 2.604167vw;
 	float: right;
