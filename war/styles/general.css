@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 @font-face {font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf");}
 
+/* Navigatiebalk */
 #navbar {
 	position: fixed;
 	left: 0px;
@@ -32,6 +33,7 @@
 	color: #FFFFFF;
 }
 
+/* Logo BierHier */
 #logobierhier {
 	position: absolute;
 	right: -3.5vw;
@@ -40,6 +42,7 @@
 	height: 15.251359vw;
 }
 
+/* Koppen */
 #header {
 	margin-top: 1.5625vw;
 	position: relative;
@@ -58,6 +61,7 @@ h1 {
 	text-align: center;
 }
 
+/* Inhoud pagina's */
 #page_content {
 	position: relative;
 	top: 3.90625vw;
@@ -69,6 +73,7 @@ h1 {
 	margin: 5.859375vw 0px;
 }
 
+/* Links */
 .button {
 	margin-top: 0.78125wv;
 	width: 19.53125vw;
@@ -82,6 +87,7 @@ h1 {
 	top: 0.390625vw;
 }
 
+/* Footer */
 #footer {
 	margin-top: 9.765625vw;
 	position: relative;

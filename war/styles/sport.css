@@ -2,6 +2,7 @@
 @font-face {font-family: "Bree Serif"; src: url("../fonts/BreeSerif-Regular.otf");}
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
+/* Navigatiebalk */
 #navbar {
     background-color: #CC0000;
 }
@@ -9,6 +10,7 @@
 	font: 400 1.25vw "Josefin Sans";
 }
 
+/* Koppen */
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 15%, #CC0000 85%, #FFFFFF 100%);
 }
@@ -27,11 +29,13 @@ h2 {
 	color: #000FE0;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.09375vw "Josefin Sans";
 	color: #444444;
 }
 
+/* Voetbalwedstrijden en -uitslagen */
 table {
 	border-collapse: collapse;
 	display: inline-block;
@@ -54,6 +58,7 @@ td:last-of-type {
 	text-align: left;
 }
 
+/* Plaatjes en videos */
 .hor_div img, iframe {
 	border: 0px;
 	width: 31.25vw;

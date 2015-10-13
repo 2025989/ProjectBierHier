@@ -6,6 +6,7 @@ body {
 	background-color: #FFF39C;
 }
 
+/* Navigatiebalk */
 #navbar {
     background-color: #9C4600;
 }
@@ -13,6 +14,7 @@ body {
 	font: 400 1.25vw "Varela";
 }
 
+/* Koppen */
 #header {
 	background: linear-gradient(to right, #FFF39C 0%, #9C4600 15%, #9C4600 85%, #FFF39C 100%);
 }
@@ -31,11 +33,13 @@ h2 {
 	color: #000000;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.09375vw "Varela";
 	color: #000000;
 }
 
+/* Plaatjes & tekst */
 .hor_div div div {
 	padding: 0px;
 	width: 29.296875vw;

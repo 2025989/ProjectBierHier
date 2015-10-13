@@ -2,6 +2,7 @@
 @font-face {font-family: "Archivo Black"; src: url("../fonts/ArchivoBlack.otf");}
 @font-face {font-family: "Josefin Sans"; src: url("../fonts/JosefinSans-Regular.ttf");}
 
+/* Navigatiebalk */
 #navbar {
     background-color: #CC0000;
 }
@@ -9,6 +10,7 @@
 	font: 400 1.25vw "Josefin Sans";
 }
 
+/* Koppen */
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 15%, #CC0000 85%, #FFFFFF 100%);
 }
@@ -26,11 +28,13 @@ h2 a {
 	color: #000FE0;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.09375vw "Josefin Sans";
 	color: #000000;
 }
 
+/* Plaatjes & Google Maps */
 .hor_div div {
 	display: inline-block;
 }
@@ -55,6 +59,7 @@ h2 a {
 	width: 27.34375vw;
 }
 
+/* Links */
 .button {
 	background: linear-gradient(to right, #FFFFFF 0%, #CC0000 25%, #CC0000 75%, #FFFFFF 100%);
 }

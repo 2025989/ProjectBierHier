@@ -2,6 +2,7 @@
 @font-face {font-family: "Oswald"; src: url("../fonts/Oswald-Regular.ttf");}
 @font-face {font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf");}
 
+/* Navigatiebalk */
 #navbar {
     background-color: #000FE0;
 }
@@ -9,6 +10,7 @@
 	font: 400 1.25vw "Raleway";
 }
 
+/* Koppen */
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #000FE0 15%, #000FE0 85%, #FFFFFF 100%);
 }
@@ -27,12 +29,14 @@ h2 {
 	color: #444444;
 }
 
+/* Inhoud pagina */
 #page_content {
 	margin-top: 3.125vw;
 	font: 400 1.09375vw "Raleway";
 	color: #000000;
 }
 
+/* Google Maps */
 iframe {
 	border: 0px;
 	width: 60vw;

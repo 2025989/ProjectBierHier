@@ -6,6 +6,7 @@
 	text-align: center;
 }
 
+/* Koppen */
 h1 {
 	position: relative;
 	top: -0.15625vw;
@@ -13,16 +14,19 @@ h1 {
 	color: #000000;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.5625vw "Josefin Sans";
 	color: #000000;
 }
 
+/* Logo BierHier */
 #logobierhier {
 	margin-top: 3.90625vw;
 	width: 39.0625vw;
 }
 
+/* Logo DNCB */
 #logoDNCB {
 	position: absolute;
 	right: 2.5vw;

@@ -2,6 +2,7 @@
 @font-face {font-family: "Bevan"; src: url("../fonts/Bevan.ttf");}
 @font-face {font-family: "Alegreya Sans"; src: url("../fonts/AlegreyaSans-Regular.ttf");}
 
+/* Navigatiebalk */
 #navbar {
 	background-color: #000000;
 }
@@ -9,16 +10,19 @@
 	font: 400 1.25vw "Alegreya Sans";
 }
 
+/* Banner */
 #bannerbierhier {
 	margin-bottom: 3.90625vw;
 	width: 75vw;
 }
 
+/* Koppen */
 h1 {
 	font: 400 3.125vw "Bevan";
 	color: #CC0000;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.09375vw "Alegreya Sans";
 	color: #444444;

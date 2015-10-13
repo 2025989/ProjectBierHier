@@ -2,6 +2,7 @@
 @font-face {font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");}
 @font-face {font-family: "Droid Serif"; src: url("../fonts/DroidSerif.ttf");}
 
+/* Navigatiebalk */
 #navbar {
     background-color: #007700;
 }
@@ -9,6 +10,7 @@
 	font: 400 1.25vw "Droid Serif";
 }
 
+/* Koppen */
 #header {
 	background: linear-gradient(to right, #FFFFFF 0%, #007700 15%, #007700 85%, #FFFFFF 100%);
 }
@@ -26,11 +28,13 @@ h2 a {
 	color: #444444;
 }
 
+/* Inhoud pagina */
 #page_content {
 	font: 400 1.09375vw "Droid Serif";
 	color: #444444;
 }
 
+/* Plaatjes, filmpjes en Google Maps */
 .hor_div div {
 	display: inline-block;
 }
@@ -55,6 +59,7 @@ h2 a {
 	width: 27.34375vw;
 }
 
+/* Links */
 .button {
 	background: linear-gradient(to right, #FFFFFF 0%, #007700 25%, #007700 75%, #FFFFFF 100%);
 }
